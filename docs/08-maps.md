@@ -9,7 +9,7 @@ $colors: (
 // get value 
 map-get($colors, "purple");
 
-// check the key exist
+// check if the key exist
 map-has-key($colors, "secondary");
 
 // remove key
