@@ -1,24 +1,34 @@
 # Maps
+
+## Syntax
+### Creating Map
 ```scss
-// create map
 $colors: (
   'primary': $primary;
   'blue': #00f;
 );
-
-// get value 
+```
+### Getting a Value
+```scss
 map-get($colors, "purple");
+```
 
-// check if the key exist
+### Cheking If a Key Exist
+```scss
 map-has-key($colors, "secondary");
+```
 
-// remove key
-map-remove($colors, "primary");
+### Removing a Key
+```scss 
+map-remove($colors, "primary");  
+```
 
-// merge maps
+### Merging Maps
+```scss
 map-merge($colors, ("secondary": $secondary));
 
 $pastel-colors: ("pink": #ffc0cb);
+
 $new-palette: map-merge($colors, $pastel-colors);
 ```
 
