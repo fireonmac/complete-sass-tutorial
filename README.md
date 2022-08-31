@@ -12,7 +12,9 @@ Sass를 사용하여 CSS 라이브러리를 직접 작성하며 세팅부터 기
 - [x] [Maps](/docs/08-maps.md)
 - [x] [Loops](/docs/09-loops.md)
 - [x] [Conditionals (@if)](/docs/10-conditionals.md)
+- [x] Parent Selectors
+- [] Mixins
 
 ## 참고
-- [Sass lang](https://sass-lang.com/)
+- [Sass Documentation](https://sass-lang.com/)
 - [The Net Ninja Youtube Channel](https://www.youtube.com/watch?v=_kqN4hl9bGc&ab_channel=TheNetNinja)

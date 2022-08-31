@@ -17,6 +17,12 @@
         color: mix(#fff, $val, $i * 10); // mix two colors
       }  
 
+      .text-hover-#{$key}-light-#{$i} {
+        &:hover {
+          color: mix(#fff, $val, $i * 10);
+        }
+      }
+
       .bg-#{$key}-light-#{$i} {
         background-color: mix(#fff, $val, $i * 10);
       }  
@@ -26,7 +32,13 @@
     @for $i from 1 through 9 {
       .text-#{$key}-dark-#{$i} {
         color: mix(#000, $val, $i * 10); 
-      }  
+      }
+      
+      .text-hover-#{$key}-dark-#{$i} {
+        &:hover {
+          color: mix(#000, $val, $i * 10);
+        }
+      }
 
       .bg-#{$key}-dark-#{$i} {
         background-color: mix(#000, $val, $i * 10);
