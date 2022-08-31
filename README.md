@@ -5,10 +5,11 @@ Sass를 사용하여 CSS 라이브러리를 직접 작성하며 세팅부터 기
 ## 목차
 ---
 - [x] Compiling Sass 
-- [] Variables
-- [] Partials & @import
-- [] Project Structure
-- [] Nested Rules
+- [x] Variables
+- [x] Partials & @import
+- [x] Project Structure
+- [x] Nested Rules
+- [] Using Math
 
 ## 참고
 ---
