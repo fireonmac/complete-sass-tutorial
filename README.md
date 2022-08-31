@@ -1,0 +1,16 @@
+# Sass Tutorial
+Sass를 사용하여 CSS 라이브러리를 직접 작성하며 세팅부터 기존에 사용하면서도 잘 모르던 문법 및 사용 모범 사례 등을 확인
+
+
+## 목차
+---
+- [x] Compiling Sass 
+- [] Variables
+- [] Partials & @import
+- [] Project Structure
+- [] Nested Rules
+
+## 참고
+---
+- [Sass lang](https://sass-lang.com/)
+- [The Net Ninja Youtube Channel](https://www.youtube.com/watch?v=_kqN4hl9bGc&ab_channel=TheNetNinja)
