@@ -9,6 +9,7 @@ Sass를 사용하여 CSS 라이브러리를 직접 작성하며 세팅부터 기
 - [x] Project Structure
 - [x] Nested Rules
 - [x] Using Math
+- [x] [Maps](/docs/08-maps.md)
 
 ## 참고
 - [Sass lang](https://sass-lang.com/)
