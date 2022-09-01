@@ -63,3 +63,22 @@ Sass 파일 내에서의 불필요한 반복을 줄여주는 것은 좋지만 �
 // the only difference between these classes is background-color
 // removing repeatition in sass can lead to creating new one in css :(
 ```
+
+### My Perspective 
+mixin은 유틸리티 클래스를 대체하는 용도로 사용하는 효율적일 것으로 예상함
+```scss 
+@mixin flex-center($direction: 'both') {
+  display: flex;
+
+  @if ($direction == 'horizontal') {
+    justify-content: center;
+  } @else if ($direction == 'vertical') {
+    align-items: center;
+  } @else {
+    justify-content: center;
+    align-items: center;
+  }
+}
+```
+
+
