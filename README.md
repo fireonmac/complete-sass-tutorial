@@ -16,6 +16,8 @@ Sass를 사용하여 CSS 라이브러리를 직접 작성하며 세팅부터 기
 - [x] [Mixins](/docs/11-mixins.md)
 - [x] [Functions](/docs/12-functions.md)
 - [x] Making Utility Classes
+- [x] Media Queries
+- [] Making a Grid System (Part 1)
 
 ## 참고
 - [Sass Documentation](https://sass-lang.com/)
