@@ -1,5 +1,5 @@
 # Mixins
-반복되는 코드를 함수처럼 묶어서 관리, 인자를 넘길 수 있음. 기본적으로 코드 반복을 줄이고 자연스레 non-semantic 클래스 사용이 적어지게 됨 (ex: .float-left 등등)
+반복되는 코드를 묶어서 관리, 함수처럼 인자를 넘길 수 있음. 코드 반복을 줄이고 HTML 내에서 non-semantic 클래스 사용 빈도를 줄여줌 (ex: .float-left 등등)
 ## Syntax
 ### Baisc Usage without argument
 ```scss
