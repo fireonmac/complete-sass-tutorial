@@ -19,7 +19,7 @@ Sass를 사용하여 CSS 라이브러리를 직접 작성하며 세팅부터 기
 - [x] Media Queries
 - [x] Making a Grid System (Part 1)
 - [x] Making a Grid System (Part 2)
-- [x] Using @extend
+- [x] [Using @extend](/docs/18-extend.md)
 
 ## 참고
 - [Sass Documentation](https://sass-lang.com/)

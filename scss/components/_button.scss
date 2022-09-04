@@ -1,27 +1,25 @@
-@mixin btn($bg-color: #e2e2e2) {
+.btn {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
   border: 0;
   padding: $base-padding $base-padding * 2;
   border-radius: $base-border-radius;
-  background-color: $bg-color;
-}
-
-.btn {
-  @include btn();
+  background-color: #e2e2e2;  
 }
 
 @each $key, $val in $colors {
   .btn-#{$key} {
-    @include btn($val);
+    @extend .btn;
+    background-color: $val;
     &:hover {
       background-color: lighten($val, 5);
     }
   }
 
   .btn-outlined-#{$key} {
-    @include btn(transparent);
+    @extend .btn;
+    background-color: transparent;
     border: $base-border-thickness solid $val;
     &:hover {
       background-color: $val;
@@ -29,7 +27,8 @@
   }
 
   .btn-complement-#{$key} {
-    @include btn($val);
+    @extend .btn;
+    background-color: $val;
     color: light-comp($val);
 
     &:hover {
