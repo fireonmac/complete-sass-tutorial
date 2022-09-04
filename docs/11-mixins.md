@@ -65,18 +65,20 @@ Sass 파일 내에서의 불필요한 반복을 줄여주는 것은 좋지만 �
 ```
 
 ### My Perspective 
-mixin은 유틸리티 클래스를 대체하는 용도로 사용하는 효율적일 것으로 예상함
+위 예제에서 mixin보다 @extend를 사용하는 것이 css로 컴파일 되었을 때 불필요한 코드를 줄일 수 있을 것으로 보인다
 ```scss 
-@mixin flex-center($direction: 'both') {
-  display: flex;
+.btn {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  background-color: transparent;
+}
 
-  @if ($direction == 'horizontal') {
-    justify-content: center;
-  } @else if ($direction == 'vertical') {
-    align-items: center;
-  } @else {
-    justify-content: center;
-    align-items: center;
+@each $k, $v in $colors {
+  .btn-#{$k} {
+    @extend .btn;
+    background-color: $v;
   }
 }
 ```
